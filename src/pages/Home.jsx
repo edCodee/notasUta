@@ -1,4 +1,5 @@
 import React from 'react';
+import headerImg from '../assets/images/main.png';
 
 const NotasUtaExacta = () => {
   // --- ESTILOS EXACTOS (CSS INLINE) ---
@@ -122,7 +123,7 @@ const NotasUtaExacta = () => {
             {/* 1. CABECERA */}
             <div>
                 <img 
-                    src="src/assets/images/main.png" 
+                    src={headerImg} 
                     alt="Header UTA" 
                     style={styles.headerImageParams} 
                 />
