@@ -155,7 +155,7 @@ const NotasUtaExacta = () => {
                 {/* FILA 1 */}
                 <tr>
                     <td style={styles.td}>SEGUNDO B</td>
-                    <td style={styles.td}>DUBUJO TÉCNICO Y CAD</td>
+                    <td style={styles.td}>DIBUJO TÉCNICO Y CAD</td>
                     <td style={styles.td}>7.8</td>
                     <td style={styles.td}>80</td>
                     <td style={styles.td}>8.1</td>
