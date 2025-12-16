@@ -181,7 +181,7 @@ const NotasUtaExacta = () => {
                     <td style={styles.td}>6.8</td>
                     <td style={styles.td}>88</td>
                     <td style={styles.td}>7.3</td>
-                    <td style={styles.td}>8.6</td>
+                    <td style={styles.td}>86</td>
                     <td style={styles.td}></td>
                     <td style={styles.td}>Aprobado</td>
                 </tr>
