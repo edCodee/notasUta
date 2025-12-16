@@ -2,7 +2,6 @@ import React from 'react';
 import headerImg from '../assets/images/main.png';
 
 const NotasUtaExacta = () => {
-  // --- ESTILOS EXACTOS (CSS INLINE) ---
     const styles = {
         wrapper: {
         fontFamily: '"Helvetica Neue", Helvetica, Arial, sans-serif',
@@ -14,11 +13,9 @@ const NotasUtaExacta = () => {
         minHeight: '100vh',
         display: 'flex',
         flexDirection: 'column',
-        alignItems: 'center', // Centra la cajita principal en la pantalla
+        alignItems: 'center', 
         overflowX: 'hidden'
         },
-        // Contenedor principal (La "cajita" de 1170px)
-        // Agrupa Header, Menú, Tabla y Footer
         mainContainer: {
         paddingRight: '15px',
         paddingLeft: '15px',
@@ -26,15 +23,13 @@ const NotasUtaExacta = () => {
         width: '100%',
         display: 'flex',
         flexDirection: 'column',
-        flex: 1 // Ocupa el alto necesario
+        flex: 1
         },
-        // Imagen de cabecera
         headerImageParams: {
         width: '100%',
         height: 'auto',
         display: 'block',
         },
-        // Barra de navegación (Menú)
         navBar: {
         display: 'flex',
         justifyContent: 'flex-end',
@@ -57,7 +52,6 @@ const NotasUtaExacta = () => {
         padding: '0 10px',
         borderRight: 'none'
         },
-        // Título
         pageTitle: {
         textAlign: 'center',
         fontSize: '28px',
@@ -65,7 +59,6 @@ const NotasUtaExacta = () => {
         fontWeight: '500',
         margin: '20px 0 30px 0'
         },
-        // Tabla
         tableContainer: {
         width: '100%',
         marginBottom: '40px'
@@ -82,10 +75,8 @@ const NotasUtaExacta = () => {
         backgroundColor: '#fff',
         fontWeight: 'bold',
         fontSize: '14px',
-        // Esto asegura que textos cortos como "Asist. 1" no se partan en dos líneas
         whiteSpace: 'nowrap' 
         },
-        // Fila Roja (Carrera)
         redRow: {
         backgroundColor: '#781b11',
         color: 'white',
@@ -101,13 +92,12 @@ const NotasUtaExacta = () => {
         fontSize: '14px',
         color: '#333'
         },
-        // --- FOOTER CORREGIDO ---
     footerBox: {
-        backgroundColor: '#404041', // Color exacto solicitado
+        backgroundColor: '#404041', 
         color: 'white',
-        padding: '2px 15px', // Reducido a 5px para hacerlo bien delgado
+        padding: '2px 15px', 
         textAlign: 'center',
-        fontSize: '13px', // Letra un poco más pequeña para que entre bien
+        fontSize: '13px',
         width: '100%',
         marginTop: 'auto', 
         marginBottom: '15px'
@@ -117,10 +107,8 @@ const NotasUtaExacta = () => {
     return (
         <div style={styles.wrapper}>
         
-        {/* --- CONTENEDOR PRINCIPAL (1170px) --- */}
         <div style={styles.mainContainer}>
             
-            {/* 1. CABECERA */}
             <div>
                 <img 
                     src={headerImg} 
@@ -129,7 +117,6 @@ const NotasUtaExacta = () => {
                 />
             </div>
 
-            {/* 2. MENÚ */}
             <div style={styles.navBar}>
                 <a href="#" style={styles.navLink}>Notas Actuales</a>
                 <a href="#" style={styles.navLink}>Cultura Física<br/>Anterior</a>
@@ -169,67 +156,67 @@ const NotasUtaExacta = () => {
                 <tr>
                     <td style={styles.td}>SEGUNDO B</td>
                     <td style={styles.td}>DUBUJO TÉCNICO Y CAD</td>
-                    <td style={styles.td}>10</td>
+                    <td style={styles.td}>7.8</td>
                     <td style={styles.td}>80</td>
+                    <td style={styles.td}>8.1</td>
+                    <td style={styles.td}>89</td>
                     <td style={styles.td}></td>
-                    <td style={styles.td}></td>
-                    <td style={styles.td}></td>
-                    <td style={styles.td}></td>
+                    <td style={styles.td}>Aprobado</td>
                 </tr>
                 {/* FILA 2 */}
                 <tr>
                     <td style={styles.td}>TERCERO A</td>
                     <td style={styles.td}>DINAMICA</td>
-                    <td style={styles.td}>10</td>
+                    <td style={styles.td}>5.9</td>
+                    <td style={styles.td}>100</td>
+                    <td style={styles.td}>8.2</td>
                     <td style={styles.td}>100</td>
                     <td style={styles.td}></td>
-                    <td style={styles.td}></td>
-                    <td style={styles.td}></td>
-                    <td style={styles.td}></td>
+                    <td style={styles.td}>Aprobado</td>
                 </tr>
                 {/* FILA 3 */}
                 <tr>
                     <td style={styles.td}>TERCERO A</td>
                     <td style={styles.td}>RESISTENCIA DE MATERIALES l</td>
-                    <td style={styles.td}>10</td>
-                    <td style={styles.td}>73</td>
+                    <td style={styles.td}>6.8</td>
+                    <td style={styles.td}>88</td>
+                    <td style={styles.td}>7.3</td>
+                    <td style={styles.td}>8.6</td>
                     <td style={styles.td}></td>
-                    <td style={styles.td}></td>
-                    <td style={styles.td}></td>
-                    <td style={styles.td}></td>
+                    <td style={styles.td}>Aprobado</td>
                 </tr>
                 {/* FILA 4 */}
                 <tr>
                     <td style={styles.td}>TERCERO A</td>
                     <td style={styles.td}>INGENIERÍA DE MATERIALES</td>
-                    <td style={styles.td}>10</td>
-                    <td style={styles.td}>69</td>
+                    <td style={styles.td}>8.6</td>
+                    <td style={styles.td}>100</td>
+                    <td style={styles.td}>8.7</td>
+                    <td style={styles.td}>82</td>
                     <td style={styles.td}></td>
-                    <td style={styles.td}></td>
-                    <td style={styles.td}></td>
-                    <td style={styles.td}></td>
+                    <td style={styles.td}>Aprobado</td>
                 </tr>
                 {/* FILA 5 */}
                 <tr>
                     <td style={styles.td}>TERCERO A</td>
                     <td style={styles.td}>MECÁNICA DE FLUIDOS l</td>
-                    <td style={styles.td}>10</td>
-                    <td style={styles.td}>75</td>
+                    <td style={styles.td}>7.3</td>
+                    <td style={styles.td}>71</td>
+                    <td style={styles.td}>9</td>
+                    <td style={styles.td}>85</td>
                     <td style={styles.td}></td>
-                    <td style={styles.td}></td>
-                    <td style={styles.td}></td>
-                    <td style={styles.td}></td>
+                    <td style={styles.td}>Aprobado</td>
                 </tr>
                 {/* FILA 6 */}
                 <tr>
                     <td style={styles.td}>TERCERO A</td>
                     <td style={styles.td}>REALIDAD NACIONAL</td>
-                    <td style={styles.td}>10</td>
-                    <td style={styles.td}>75</td>
+                    <td style={styles.td}>8.3</td>
+                    <td style={styles.td}>100</td>
+                    <td style={styles.td}>7.9</td>
+                    <td style={styles.td}>94</td>
                     <td style={styles.td}></td>
-                    <td style={styles.td}></td>
-                    <td style={styles.td}></td>
-                    <td style={styles.td}></td>
+                    <td style={styles.td}>Aprobado</td>
                 </tr>
                 </tbody>
             </table>
