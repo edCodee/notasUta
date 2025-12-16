@@ -202,7 +202,7 @@ const NotasUtaExacta = () => {
                     <td style={styles.td}>MECÁNICA DE FLUIDOS l</td>
                     <td style={styles.td}>7.3</td>
                     <td style={styles.td}>71</td>
-                    <td style={styles.td}>9</td>
+                    <td style={styles.td}>9.0</td>
                     <td style={styles.td}>85</td>
                     <td style={styles.td}></td>
                     <td style={styles.td}>Aprobado</td>
