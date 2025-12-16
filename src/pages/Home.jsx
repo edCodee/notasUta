@@ -188,7 +188,7 @@ const NotasUtaExacta = () => {
                 {/* FILA 4 */}
                 <tr>
                     <td style={styles.td}>TERCERO A</td>
-                    <td style={styles.td}>INGENIERÍA DE MATERIALES</td>
+                    <td style={styles.td}>INGENIERÍA DE MATERIALES l</td>
                     <td style={styles.td}>8.6</td>
                     <td style={styles.td}>100</td>
                     <td style={styles.td}>8.7</td>
